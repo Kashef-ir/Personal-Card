@@ -1,6 +1,6 @@
-import "./Buttons.css"
+import "./About.css"
 
-export default function Buttons() {
+export default function About() {
     return(
         <div></div>
     )

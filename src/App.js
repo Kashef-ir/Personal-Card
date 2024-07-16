@@ -5,15 +5,16 @@ import About from "./components/About/About";
 import Interests from "./components/Interests/Interests";
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
     return (
         <div className="container">
-            <Info />
-            <Buttons />
-            <About />
-            <Interests />
-            <Footer />
+            <div className="content">
+                <Info />
+                <About />
+                <Buttons />
+                <Interests />
+                <Footer />
+            </div>
         </div>
     );
 }
