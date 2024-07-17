@@ -15,4 +15,5 @@
 .content {
     background-color: #3a5a40;
     border-radius: 0.5rem;
+    max-width: 18rem;
 }
