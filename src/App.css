@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     font-family: Arial, Helvetica, sans-serif;
     background: url("./images/pattern-randomized.svg");
 }
@@ -21,12 +21,8 @@
 
 .background {
     position: absolute;
-
     display: block;
-
     top: 0;
-
     left: 0;
-
     z-index: -1;
 }
