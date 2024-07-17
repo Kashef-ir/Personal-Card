@@ -10,10 +10,23 @@
     align-items: center;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    background: url("./images/pattern-randomized.svg");
 }
 
 .content {
     background-color: #3a5a40;
     border-radius: 0.5rem;
     max-width: 18rem;
+}
+
+.background {
+    position: absolute;
+
+    display: block;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: -1;
 }
