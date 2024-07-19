@@ -1,12 +1,15 @@
 .profile-img {
-    width: 18rem;
+    width: 100%;
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .name, .skill, .tech {
-    text-align: center;
     color: #dad7cd;
-    padding: 0.6rem 0 0 0;
+    padding: 0.6rem 0 0 1rem;
+}
+
+.sub-name {
+    font-weight: 100;
 }
 
 .name {
