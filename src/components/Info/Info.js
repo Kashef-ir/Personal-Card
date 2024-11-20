@@ -1,5 +1,5 @@
 import "./Info.css"
-import profileImg from "../../images/20240401_1117291.jpg"
+import profileImg from "../../images/profile.jpg"
 
 export default function Info() {
     return(
